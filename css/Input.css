@@ -3,12 +3,12 @@
 	src: url('res/font/Monument_Valley_1.2-Regular.otf');
 }
 
-.carouselExampleIndicators{
-	margin-top: 400px;
+#carouselExampleIndicators{
+	padding-top: 300px;
 }
 
 .form-group{
-	width: 40%;
+	width: 100%;
 }
 
 .label{
@@ -23,13 +23,14 @@
 	margin:auto;
 	margin-left: 300px;
 	color: white;
-	font-size: 40px;
+	font-size: 30px;
 	width: 100%; 
 	font-family: "MonumentValley";
 }
 
 
 .slime{
+	position: fixed;
 	width: 500px;
 	transition-property: width;
     transition-duration: 10s;
@@ -41,18 +42,18 @@
 .slime:hover {
     width: 10000px;
 }
-.input-group-prepend{
-	margin:auto;
-	color: white;
-	font-size: 40px;
-	left: 0px;
-	width: 150px; 
-	font-family: "MonumentValley";
+
+.input-group-text{
+	width: 100px;
 }
 
+input{
+    background:url(bg-dot.jpg) repeat-x center bottom;
+    border: none;
+    border-bottom: 3px solid white;
+}
 
 body {
-	margin-top: 200px;
 	background-position: relative;
 	background-attachment: fixed; 
 	background-size: cover;
