@@ -14,23 +14,21 @@
 .label{
 	font-family: "MonumentValley";
 }
+.form-control{
+	width: 40%;
+}
 
 .carousel-item{
+	margin-top:500px;
 	margin:auto;
-	margin-left: 700px;
+	margin-left: 300px;
 	color: white;
-	font-size: 24px;
+	font-size: 40px;
 	width: 100%; 
 	font-family: "MonumentValley";
 }
 
-.form-control{
-	width: 600px;
-	height: 400%;
-}
 
-<<<<<<< HEAD
-=======
 .slime{
 	width: 500px;
 	transition-property: width;
@@ -43,10 +41,18 @@
 .slime:hover {
     width: 10000px;
 }
+.input-group-prepend{
+	margin:auto;
+	color: white;
+	font-size: 40px;
+	left: 0px;
+	width: 150px; 
+	font-family: "MonumentValley";
+}
 
->>>>>>> 073cb045b7727e6b9159c1b0fbdbeddb60aa4a07
+
 body {
-	margin-top: 400px;
+	margin-top: 200px;
 	background-position: relative;
 	background-attachment: fixed; 
 	background-size: cover;
