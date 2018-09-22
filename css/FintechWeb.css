@@ -1,0 +1,81 @@
+
+body{
+  background-image:  url("../image/homebg.jpg");
+  font-size: 12px;
+  line-height: 1.5;
+  background-position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  back
+
+}
+
+.masthead {
+  min-height: 40rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 10vh;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../image/homebg.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../image/homebg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+
+.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 45px;
+}
+
+.scroll-to-top:focus, .scroll-to-top:hover {
+  color: white;
+}
+
+.scroll-to-top:hover {
+  background: #343a40;
+}
+
+.scroll-to-top i {
+  font-weight: 800;
+}
+.topbarbox{
+  position: fixed;
+  left: 15px;
+  top: 15px;
+  height: 50px;
+  width: 100px;
+  background: #fff;
+  box-shadow: 0 2px 2px rgba(0,0,0,.15);
+  border-radius: 3px;
+}
+
+
+.userbox{
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  box-shadow: 0 2px 2px rgba(0,0,0,.15);
+  border-radius: 50%;
+  background: url(..//image/defavatar.png) center center no-repeat;
+}
