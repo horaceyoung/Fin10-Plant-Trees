@@ -1,0 +1,16 @@
+@font-face{
+	font-family: 'MonumentValley';
+	src : url('res/font/Monument_Valley_1.2-Regular.otf');
+}
+
+.carousel-item label:{
+	width: 40%; 
+	margin-left: 1000px;
+	font-family: 'MonumentValley';
+}
+
+body {
+	background-position: relative;
+	background-attachment: fixed; 
+	background-size: cover;
+}
