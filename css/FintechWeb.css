@@ -6,14 +6,27 @@ body{
   background-position: relative;
   background-size: cover;
   background-attachment: fixed;
-  back
+
 
 }
-.aaa{
-  height: 30px;
-  width: 50px;
-  background: #ffffff;
+
+#tree1-2:hover{
+	src = "../image/tree1-1.png"
+	margin-left: 160px;
 }
+
+#pop-up{
+	height: 300px;
+	width: 300px;
+	background-color: white;
+}
+
+.card-body{
+	background-color: white;
+	opacity: 1;
+}
+
+
 .masthead {
   min-height: 40rem;
   position: relative;
@@ -69,6 +82,52 @@ body{
   background: #fff;
   box-shadow: 0 2px 2px rgba(0,0,0,.15);
   border-radius: 3px;
+}
+
+.tree-container{
+  margin-bottom: 5%;
+}
+
+
+.treeimage1{
+  background-image: url("../image/tree1-1.png"); 
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 30%;
+  bottom: 1%;
+  height: 35%;
+  width: auto;
+
+}
+
+
+
+.treeimage2{
+  background-image: url("../image/tree2-1.png"); 
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 3%;
+  bottom: 5%;
+  height: 45%;
+  width: auto;
+}
+
+
+.treeimage3{
+  position: absolute;
+  left: 80%;
+  bottom: 2%;
+  height: 35%;
+  width: auto;
+}
+
+.treeimage4{
+  position: absolute;
+  left: 50%;
+  bottom: 7%;
+  height: 55%;
+  width: auto;
+
 }
 
 
