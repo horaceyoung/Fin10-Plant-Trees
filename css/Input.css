@@ -1,19 +1,38 @@
 @font-face{
 	font-family: 'MonumentValley';
-	src : url('res/font/Monument_Valley_1.2-Regular.otf');
+	src: url('res/font/Monument_Valley_1.2-Regular.otf');
+}
+
+.carouselExampleIndicators{
+	margin-top: 400px;
+}
+
+.form-group{
+	width: 40%;
 }
 
 .label{
+	font-family: "MonumentValley";
+}
+
+.carousel-item{
 	margin:auto;
+	margin-left: 700px;
 	color: white;
-	font-size: 30px
-	width: 40%; 
-	margin-left: 500px;
-	font-family: 'MonumentValley';
+	font-size: 24px;
+	width: 100%; 
+	font-family: "MonumentValley";
+}
+
+.form-control{
+	width: 600px;
+	height: 400%;
 }
 
 body {
+	margin-top: 400px;
 	background-position: relative;
 	background-attachment: fixed; 
 	background-size: cover;
+	font-family: "MonumentValley";
 }
