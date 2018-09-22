@@ -29,6 +29,22 @@
 	height: 400%;
 }
 
+<<<<<<< HEAD
+=======
+.slime{
+	width: 500px;
+	transition-property: width;
+    transition-duration: 10s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    margin-left: 100px;
+}
+
+.slime:hover {
+    width: 10000px;
+}
+
+>>>>>>> 073cb045b7727e6b9159c1b0fbdbeddb60aa4a07
 body {
 	margin-top: 400px;
 	background-position: relative;
