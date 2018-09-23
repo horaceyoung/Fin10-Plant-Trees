@@ -10,10 +10,6 @@ body{
 
 }
 
-#tree1-2:hover{
-	src = "../image/tree1-1.png"
-	margin-left: 160px;
-}
 
 #pop-up{
 	height: 300px;
@@ -90,8 +86,6 @@ body{
 
 
 .treeimage1{
-  background-image: url("../image/tree1-1.png"); 
-  background-repeat: no-repeat;
   position: absolute;
   left: 30%;
   bottom: 1%;
@@ -103,8 +97,6 @@ body{
 
 
 .treeimage2{
-  background-image: url("../image/tree2-1.png"); 
-  background-repeat: no-repeat;
   position: absolute;
   left: 3%;
   bottom: 5%;
